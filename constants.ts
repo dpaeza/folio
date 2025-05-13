@@ -7,7 +7,7 @@
 export const METADATA = {
   title: "Daniela Paez",
   description:
-    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
+    "I'm a Full Stack Developer who connects frontend and backend seamlessly. I focus on building efficient, user-centered apps with modern web technologies.",
   siteUrl: "https://danielapaez.dev/",
 };
 
