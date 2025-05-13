@@ -294,7 +294,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "Fullstack Developer",
     size: ItemSize.SMALL,
-    subtitle:"Initiated the frontend and backend development of BCM (Bot Content Management), a web platform to monitor chatbots performance and responses.",
+    subtitle:"Initiated the frontend and backend development of BCM (Bot Content Manager), a web platform to monitor chatbots performance and responses.",
     image: "/timeline/Inchcape_logo.svg",
     slideImage: "/timeline/bcm.png",
     shouldDrawLine: true,
@@ -353,7 +353,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2020",
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
