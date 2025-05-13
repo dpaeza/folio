@@ -82,7 +82,7 @@ const SkillsSection = () => {
 
   const renderSkillColumn = (
     title: string,
-    skills: string[]
+    skills: { name: string; icon: string }[]
   ): React.ReactNode => (
     <>
       <h3 className={SKILL_STYLES.SKILL_TITLE}>{title}</h3>
@@ -91,15 +91,18 @@ const SkillsSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        {skills.map((skill) => (
-          <Image
-            key={skill}
-            src={`/skills/${skill}.svg`}
-            alt={skill}
-            width={76}
-            height={76}
-            className="skill"
-          />
+        {skills.map((skill, index) => (
+          <div key={index} className="mr-6 mb-6 flex flex-col items-center">
+            <Image
+              src={`/skills/${skill.icon}.svg`}
+              alt={skill.name}
+              width={76}
+              height={76}
+              className="skill"
+            />
+            <p className="text-sm text-center mt-2">{skill.name}</p>
+          </div>
+          
         ))}
       </div>
     </>
@@ -121,8 +124,8 @@ const SkillsSection = () => {
           <div className="flex flex-wrap mt-10">
             <div className="mr-6 mb-6">
               {renderSkillColumn(
-                "User Interface, User Experience Design",
-                SKILLS.userInterface
+                "BaCKEND DEVELOPMENT",
+                SKILLS.backend
               )}
             </div>
             <div>{renderSkillColumn("Other Skills", SKILLS.other)}</div>
