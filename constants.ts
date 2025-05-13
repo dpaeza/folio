@@ -8,7 +8,7 @@ export const METADATA = {
   title: "Daniela Paez",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
-  siteUrl: "https://ayushsingh.net/",
+  siteUrl: "https://danielapaez.dev/",
 };
 
 export const MENULINKS = [
