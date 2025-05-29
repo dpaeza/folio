@@ -164,6 +164,10 @@ export const SKILLS = {
       icon: "css",
     },
     {
+      name: "Tailwind CSS",
+      icon: "tailwind",
+    },
+    {
       name: "SASS",
       icon: "sass",
     },
